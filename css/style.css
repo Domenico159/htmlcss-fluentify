@@ -295,8 +295,7 @@ section.selection-footer ul li:last-child{
 }
 
 .selection-footer{
-    position: relative;
-    right: 100px;
+    text-align: right;
 }
 
 .arrow{
@@ -307,7 +306,7 @@ section.selection-footer ul li:last-child{
     position: fixed;
     z-index: 10;
     bottom: 0;
-    right: 200px;
+    right: 100px;
 }
 
 .help-btn{
