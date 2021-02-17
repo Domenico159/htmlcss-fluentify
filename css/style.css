@@ -49,7 +49,7 @@ a{
     width: 100px;
     border-radius: 5px;
     text-align: center;
-    padding: 10px;
+    padding: 10px 25px;
     border: 1px solid #fff;
 }
 
@@ -118,12 +118,12 @@ a{
 
 /* Nav-center */
 .nav-center{
-    width: 50%;
+    width: 42%;
 }
 
 /* Nav-right */
 .nav-right{
-    width: 35%;
+    width: 43%;
     text-align: right;
 }
 
