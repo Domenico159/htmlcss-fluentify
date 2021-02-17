@@ -54,7 +54,7 @@ a{
 }
 
 .btn-green{
-    background-color: green;
+    background-color: #7cbb01;
     border: 1px solid transparent;
 }
 
@@ -92,7 +92,7 @@ a{
 }
 
 .menù-container:hover .bar2{
-    background-color: greenyellow;
+    background-color: #7cbb01;
     transform: translateX(-10px);   
 }
 
@@ -129,7 +129,7 @@ a{
 
 /* Hover nav bar */
 .nav-right .btn:hover{
-    background-color: green;
+    background-color: #7cbb01;
     transition-duration: 0.5s;
 }
 .nav-right .btn.btn-green:hover,
@@ -141,7 +141,7 @@ a{
 
 
 .container nav ul li a:not(.btn):hover{
-    color: greenyellow;
+    color: ##7cbb01;
 }
 
 /* jumbotron */
@@ -216,7 +216,7 @@ a{
 }
 
 .item h3{
-    color: green;
+    color: #7cbb01;
 }
 /* Small-bar and big bar */
 .big-bar{
@@ -224,7 +224,8 @@ a{
     height: 3px;
     background-color: rgba(128, 128, 128,0.5);
     border-radius: 20px;
-    margin: 0 auto;
+    margin: 40px auto;
+    
 }
 
 .small-bar{
@@ -232,7 +233,7 @@ a{
     height: 5px;
     background-color: rgba(128, 128, 128,0.5);
     border-radius: 20px;
-    margin: 25px auto;
+    margin: 30px auto;
 }
 
 /* Grafic-content */
@@ -242,6 +243,11 @@ a{
 }
 
 /* Grafic content */
+
+.grafic-content .container .text-grafic{
+    margin-left: 50px;
+    width: 38%;
+}
 
 .grafic-content .container .text-grafic a{
     text-decoration: underline;
@@ -300,19 +306,21 @@ section.selection-footer ul li:last-child{
 .help-btn{
     width: 30px;
     height: 30px;
-    background-color: green;
+    background-color: #7cbb01;
     padding: 10px;
     border-radius: 10px 10px 0 0 ;
 }
 /* Hover btn footer */
 .help:hover .help-btn{
     background-color: #0d305a;
+    transition-duration: 0.5s;
 }
 
 .selection-footer ul li .btn:hover{
     background-color: transparent;
     border: 1px solid green;
     color: green;
+    transition-duration: 0.5s;
 }
 
 footer .text-footer a{
