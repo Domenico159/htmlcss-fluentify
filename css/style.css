@@ -227,16 +227,16 @@ a{
     height: 3px;
     background-color: rgba(128, 128, 128,0.5);
     border-radius: 20px;
-    margin: 40px auto;
+    margin: 0 auto 50px auto;
     
 }
 
 .small-bar{
-    width: 50px;
-    height: 5px;
+    width: 70px;
+    height: 3px;
     background-color: rgba(128, 128, 128,0.5);
     border-radius: 20px;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 /* Grafic-content */
@@ -250,6 +250,10 @@ a{
 .grafic-content .container .text-grafic{
     margin-left: 50px;
     width: 38%;
+}
+
+.grafic-content .container .text-grafic p{
+    margin: 10px 0;
 }
 
 .grafic-content .container .text-grafic a{
