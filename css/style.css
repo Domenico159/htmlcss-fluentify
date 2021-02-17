@@ -36,6 +36,20 @@ nav ul li a{
     margin-left: 20px;
 }
 
+.btn{
+    width: 100px;
+    height: 30;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.btn-green{
+    background-color: green;
+    border: 1px solid transparent;
+}
+
 /* Header menù */
 .menù-container{
     position: fixed;
@@ -76,8 +90,7 @@ nav ul li a{
 
 /* Logo */
 .logo{
-    width: 20%;
-    background-color: rgba(0, 0, 0, 0.3);
+    width: 15%;
 }
 .navbar .container .logo img{
     vertical-align: middle;
@@ -88,12 +101,20 @@ nav ul li a{
 /* Nav-center */
 .nav-center{
     width: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Nav-right */
 .nav-right{
-    width: 30%;
+    width: 35%;
     text-align: right;
-    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-right .btn:hover{
+    background-color: green;
+    transition-duration: 0.5s;
+}
+.nav-right .btn.btn-green:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition-duration: 0.5s;
 }
