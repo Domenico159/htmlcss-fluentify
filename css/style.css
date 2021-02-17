@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    color: rgb(99, 96, 96);
 }
 
 /* Utilitys */
@@ -182,6 +183,9 @@ a{
 .container-central-bar{
     padding: 20px 0 20px 0;
 }
+.container-central-bar h2{
+    color: black;
+}
 
 /* Central content */
 .central-content {
@@ -247,7 +251,73 @@ a{
 /* Footer */
 footer .footer{
     width: 100vw;
-    height: 100px;
+    line-height: 100px;
     background-color:rgba(128, 128, 128,0.5);
 }
 
+.text-footer{
+    width: 30%;
+}
+
+.selection-footer{
+    width: 70%;
+}
+.selection-footer{
+    text-align: right;
+}
+
+section.selection-footer ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 60px;
+}
+
+section.selection-footer ul li:last-child{
+    margin-left: 20px;
+}
+
+.selection{
+    border-bottom: 1px solid grey;
+    
+}
+
+.selection-footer{
+    position: relative;
+    right: 100px;
+}
+
+.arrow{
+    padding-left: 70px;
+}
+/* Help btn */
+.help{
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    right: 200px;
+}
+
+.help-btn{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px 10px 0 0 ;
+}
+/* Hover btn footer */
+.help:hover .help-btn{
+    background-color: #0d305a;
+}
+
+.selection-footer ul li .btn:hover{
+    background-color: transparent;
+    border: 1px solid green;
+    color: green;
+}
+
+footer .text-footer a{
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
