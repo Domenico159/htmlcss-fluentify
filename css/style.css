@@ -1,0 +1,99 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* Utilitys */
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Header menù */
+.menù-container{
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    left: 60px;
+}
+
+.bar{
+    width: 40px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    transition-duration: 0.5s;
+}
+
+.menù-container:hover .bar1,
+.menù-container:hover .bar3{
+    background-color: hotpink;
+    transform: translateX(10px);
+}
+
+.menù-container:hover .bar2{
+    background-color: greenyellow;
+    transform: translateX(-10px);   
+}
+
+/* Header conteiner */
+.navbar{
+    font-size: 12px;
+    width: 100vw;
+    background-color: blue;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* Logo */
+.logo{
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar .container .logo img{
+    vertical-align: middle;
+    position: relative;
+    top:-5px;
+}
+
+/* Nav-center */
+.nav-center{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Nav-right */
+.nav-right{
+    width: 30%;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.3);
+}
