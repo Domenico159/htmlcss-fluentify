@@ -15,7 +15,7 @@ body{
     margin: 0 auto;
 }
 
-.clearfix{
+.clearfix::after{
     content: '';
     display: table;
     clear: both;
@@ -234,5 +234,20 @@ a{
 /* Grafic-content */
 .grafic-content{
     width: 100vw;
-    height: 500px;
+    height: 550px;
 }
+
+/* Grafic content */
+
+.grafic-content .container .text-grafic a{
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Footer */
+footer .footer{
+    width: 100vw;
+    height: 100px;
+    background-color:rgba(128, 128, 128,0.5);
+}
+
