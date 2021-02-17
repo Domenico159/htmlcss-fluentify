@@ -205,6 +205,9 @@ a{
     padding-top: 20px;
     margin: 1%;
 }
+.item img{
+    padding-bottom: 15px;
+}
 
 .item.item2 img{
     width:170px ;
