@@ -346,10 +346,6 @@ section.selection-footer ul li:last-child{
     height: 380px;
 }
 
-.hand-section .text-hand{
-    width: 35%;
-}
-
 .hand-section .text-hand h2{
     color:black;
     padding-bottom: 40px;
@@ -359,8 +355,7 @@ section.selection-footer ul li:last-child{
 section .two-section ul li{
     display: inline-block;
     list-style: none;
-    margin-top:30px;
-    padding:10px ;
+    margin-top:50px;
 
 }
 
@@ -369,9 +364,9 @@ section .two-section .section-right a{
     color: rgb(62, 62, 207);
 }
 
-.two-section .section-left{
-    background-color: #7cbb01;
-    border-radius: 10px;
+section .two-section .section-left a:hover{
+    background-color:rgb(62, 62, 207) ;
+    transition-duration: 0.5s;
 }
 
 .two-section .section-right{
