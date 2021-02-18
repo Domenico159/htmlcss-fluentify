@@ -456,6 +456,9 @@ section .two-section .section-right a{
     width: 65px;
 }
 
+.struttura-un-piano .container h2{
+    color: rgb(82, 80, 80);
+}
 
 .struttura-un-piano .object h3{
     padding-bottom: 30px;
