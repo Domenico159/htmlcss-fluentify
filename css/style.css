@@ -40,7 +40,7 @@ nav ul li a{
     text-decoration: none;
     margin-left: 20px;
 }
-a{
+a {
     color: #fff;
     text-decoration: none;
 }
@@ -336,8 +336,9 @@ section.selection-footer ul li:last-child{
     display: inline-block;
     width: 200px;
     height: 30px;
-    border-radius: 10px;
-    border:0px
+    border:0px;
+    background-color:transparent;
+    border-bottom: 1px solid grey;
 }
 
 /* Hand section */
@@ -415,4 +416,45 @@ section .two-section .section-right a{
 }
 .scopri-come .container p{
     margin: 50px 0;
+    color: grey;
+}
+
+.scopri-come .container .scopri-come-section a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transition-duration: 0.5s;
+}
+
+/* Section struttura un piano */
+.struttura-un-piano{
+    height: 600px;
+}
+
+.struttura-un-piano .container{
+    text-align: center;
+}
+
+.struttura-un-piano h2{
+    padding: 50px 0 ;
+}
+.struttura-un-piano .object{
+    height: 50px;
+    width: 31%;
+    margin: 1%;
+    text-align: left;
+}
+.struttura-un-piano .object img{
+    width: 80px;
+    padding-bottom: 30px;
+}
+.struttura-un-piano .object h3{
+    padding-bottom: 30px;
+}
+.struttura-un-piano .object p{
+    margin-bottom: 30px;
+}
+
+.struttura-un-piano .object a{
+    color: blue;
+    text-decoration: underline;
 }
