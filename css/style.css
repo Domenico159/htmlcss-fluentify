@@ -67,6 +67,7 @@ a{
 .navbar{
     position: fixed;
     z-index: 10;
+    width: 100%;
 }
 
 .menù-container{
@@ -99,7 +100,6 @@ a{
 /* Header conteiner */
 .navbar{
     font-size: 12px;
-    width: 100vw;
     background-color: #0d305a;
     line-height: 80px;
     text-transform: uppercase;
@@ -147,7 +147,6 @@ a{
 /* jumbotron */
 
 .jumbotron{
-    width: 100vw;
     height: 500px;
     background-color: #0d305a;
     background-image: url(../img/background-header.png);
@@ -175,7 +174,6 @@ a{
 
 /* Central bar */
 .central-bar{
-    width: 100vw;
     height: 100px;
     background-color: rgba(128, 128, 128,0.5);
     text-align: center;
@@ -188,9 +186,6 @@ a{
 }
 
 /* Central content */
-.central-content {
-    width: 100vw;
-}
 .central-content .container{
     height: 400px;
 }
@@ -241,7 +236,6 @@ a{
 
 /* Grafic-content */
 .grafic-content{
-    width: 100vw;
     height: 550px;
 }
 
@@ -261,11 +255,11 @@ a{
     color: blue;
 }
 
-/* Footer */
-footer .footer{
-    width: 100vw;
+/* Select */
+section .select-bar{
     line-height: 100px;
     background-color:rgba(128, 128, 128,0.5);
+    margin-bottom: 40px;
 }
 
 .text-footer{
@@ -320,9 +314,9 @@ section.selection-footer ul li:last-child{
     padding: 10px;
     border-radius: 10px 10px 0 0 ;
 }
-/* Hover btn footer */
+/* Hover btn select-bar */
 .help:hover .help-btn{
-    background-color: rgb(62, 62, 207);;
+    background-color: rgb(62, 62, 207);
     transition-duration: 0.5s;
 }
 
@@ -331,7 +325,7 @@ section.selection-footer ul li:last-child{
     transition-duration: 0.5s;
 }
 
-footer .text-footer a{
+.select-bar .text-footer a{
     color: black;
     text-transform: uppercase;
     font-size: 18px;
@@ -346,3 +340,79 @@ footer .text-footer a{
     border:0px
 }
 
+/* Hand section */
+.hand-section{
+    height: 380px;
+}
+
+.hand-section .text-hand{
+    width: 35%;
+}
+
+.hand-section .text-hand h2{
+    color:black;
+    padding-bottom: 40px;
+    
+}
+
+section .two-section ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top:30px;
+    padding:10px ;
+
+}
+
+
+section .two-section .section-right a{ 
+    color: rgb(62, 62, 207);
+}
+
+.two-section .section-left{
+    background-color: #7cbb01;
+    border-radius: 10px;
+}
+
+.two-section .section-right{
+    text-align: center;
+}
+
+/* Img-computer */
+.img-computer{
+    height: 500px;
+}
+
+.img-computer .container{
+    text-align: center;
+}
+.img-computer .container img{
+    width: 700px;
+}
+
+.img-computer .container .text-img-computer{
+    color: #7cbb01;
+}
+.img-computer .container  a{
+    text-decoration: underline;
+    color: blue;
+}
+.img-computer .container p{
+    margin: 20px 0px;
+}
+
+/* Section scopri come */
+.scopri-come{
+    height: 500px;
+    background-color: #0d305a;
+}
+
+.scopri-come .container{
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.scopri-come .container p{
+    margin: 50px 0;
+}
