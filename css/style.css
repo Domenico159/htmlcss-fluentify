@@ -88,12 +88,12 @@ a {
 
 .menù-container:hover .bar1,
 .menù-container:hover .bar3{
-    background-color: hotpink;
+    background-color: #7cbb01;
     transform: translateX(10px);
 }
 
 .menù-container:hover .bar2{
-    background-color: #7cbb01;
+    background-color: rgb(0, 204, 255);
     transform: translateX(-10px);   
 }
 
@@ -427,7 +427,7 @@ section .two-section .section-right a{
 
 /* Section struttura un piano */
 .struttura-un-piano{
-    height: 600px;
+    height: 500px;
 }
 
 .struttura-un-piano .container{
@@ -444,9 +444,19 @@ section .two-section .section-right a{
     text-align: left;
 }
 .struttura-un-piano .object img{
-    width: 80px;
+    width: 70px;
     padding-bottom: 30px;
 }
+
+.struttura-un-piano .object.azienda img{
+    width: 60px;
+}
+
+.struttura-un-piano .object.professionista img{
+    width: 65px;
+}
+
+
 .struttura-un-piano .object h3{
     padding-bottom: 30px;
 }
@@ -455,6 +465,100 @@ section .two-section .section-right a{
 }
 
 .struttura-un-piano .object a{
-    color: blue;
     text-decoration: underline;
+}
+
+.struttura-un-piano .object .color-bar{
+    width: 330px;
+    height: 7px;
+    margin-bottom: 20px;
+}
+
+.studente .color-bar{
+    background-color:rgb(0, 238, 255);
+}
+
+.professionista .color-bar{
+    background-color: rgb(235, 166, 39);
+}
+
+.azienda .color-bar{
+    background-color: rgb(94, 128, 0);
+}
+
+.studente a{
+    color:rgb(0, 238, 255);
+}
+.professionista a{
+    color:rgb(235, 166, 39) ;
+}
+.azienda a{
+    color: rgb(94, 128, 0);
+}
+
+/* Section dubbi */
+.dubbi{
+    background-color: #092547;
+    height: 100px;
+}
+
+footer{
+    background-color: #0d305a;
+    height: 330px;
+    position: relative;
+}
+
+/* Contact-footer */
+.dubbi .container{
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.dubbi .container span{
+    color: orange;
+}
+.dubbi .container h2{
+    color: #fff;
+    padding-bottom: 15px;
+}
+.dubbi .container a{
+    color: grey;
+}
+.dubbi .container a:hover{
+    color: orange;
+}
+
+/* Footer */
+.footer-azienda ul li{
+    list-style: none;
+    padding-top: 20px;
+}
+
+.footer-azienda ul li a{
+    color: grey;
+}
+
+.footer-azienda ul li:first-child{
+    font-size: 28px;
+}
+
+.footer-azienda ul li a.azienda-ancor{
+    color: #fff;
+}
+
+.indirizzi{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    transform: translateY(-50%);
+}
+
+.indirizzi h2{
+    padding-bottom:20px;
+    color: #fff;
+}
+.indirizzi h2:first-child{
+    text-transform: uppercase;
 }
