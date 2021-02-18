@@ -282,7 +282,11 @@ footer .footer{
 section.selection-footer ul li{
     display: inline-block;
     list-style: none;
-    margin-left: 60px;
+    margin-left: 20px;
+}
+
+section.selection-footer ul li:first-child{
+    font-size: 20px;
 }
 
 section.selection-footer ul li:last-child{
@@ -318,14 +322,12 @@ section.selection-footer ul li:last-child{
 }
 /* Hover btn footer */
 .help:hover .help-btn{
-    background-color: #0d305a;
+    background-color: rgb(62, 62, 207);;
     transition-duration: 0.5s;
 }
 
 .selection-footer ul li .btn:hover{
-    background-color: transparent;
-    border: 1px solid green;
-    color: green;
+    background-color: rgb(62, 62, 207);
     transition-duration: 0.5s;
 }
 
@@ -335,3 +337,10 @@ footer .text-footer a{
     font-size: 18px;
     font-weight: 700;
 }
+
+#select{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+}
+
